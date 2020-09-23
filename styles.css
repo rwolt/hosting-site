@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+}
+.header img{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 100px;
+    padding: 30px 5px;
+    color: black;
+    margin-right: 0;
+    text-align: center;
+}
+#chat{
+    background: url(images/chat.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#call{
+    background: url(images/phone.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#login{
+    background: url(images/user.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
